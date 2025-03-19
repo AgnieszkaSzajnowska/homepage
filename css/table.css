@@ -1,0 +1,11 @@
+.table {
+    border-collapse: collapse;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.table__cell {
+    border: 2px solid rgba(128, 128, 128, 0.733);
+    padding: 12px;
+    text-align: center;
+}

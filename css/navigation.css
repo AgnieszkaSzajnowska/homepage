@@ -1,0 +1,21 @@
+.navigation {
+    color: rgb(39, 10, 146);
+    background-color: rgba(128, 128, 128, 0.137); 
+    border: 1px solid rgba(128, 128, 128, 0.733);
+    font-weight: 700;
+}
+
+.navigation__listItem {
+    margin: 10px 0;
+}
+
+.navigation__link {
+  color:  rgb(39, 10, 146);
+  text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: blue;
+    border-bottom: 1px solid;
+    outline: none;
+}
