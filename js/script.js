@@ -1,9 +1,5 @@
 {
-    const welcome = () => {
-        console.log("Hello");
-    }
-
-    const ChangeBackgroundClick = document.querySelector(".js-button");
+    const changeBackgroundClick = document.querySelector(".js-button");
     const body = document.querySelector(".js-body");
     const themeName = document.querySelector(".js-themeName");
 
@@ -14,7 +10,7 @@
     }
 
     const init = () => {
-        ChangeBackgroundClick.addEventListener("click", onChangeBackgroundClick);
+        changeBackgroundClick.addEventListener("click", onChangeBackgroundClick);
     }
     init();
 }
